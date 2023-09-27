@@ -9,7 +9,3 @@ def get_rows(host, user, pwd):
     result = cursor.fetchall()
     return result
 
-def do_work(row):
-    id, ip, time, desc, revid = row[0], row[1], row[2], row[3], row[4]
-    print(id, ip, time, desc, revid)
-
